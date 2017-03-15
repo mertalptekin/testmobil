@@ -9,5 +9,9 @@ namespace TestMobile.API.Controllers
 {
     public class TastController : ApiController
     {
+        public IHttpActionResult Get()
+        {
+            return Ok();
+        }
     }
 }
